@@ -26,7 +26,7 @@ class ColorDisplay extends React.Component {
 
     handleChange(value, COLOR){
         const color = this.state.color;
-        const value = parseFloat(value);
+        value = parseFloat(value);
         if (COLOR == Color.RED){
             color.red = value;
         } else if (COLOR == Color.BLUE){

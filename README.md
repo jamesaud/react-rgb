@@ -1,3 +1,10 @@
+## Example of REACT to create a simple RGB color picker.
+
+Go to https://jamesaud.github.io/react-rgb/  to see it live.
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>

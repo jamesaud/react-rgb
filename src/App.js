@@ -8,13 +8,17 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="App-header">
+        <div className="App-header container-fluid">
+          <div className="row">
+            <div className="col-md-12">
           <img src={logo} className="App-logo" alt="logo" />
           <h2>Welcome to the <strong><span style={{color: "red"}}>R</span>
                                      <span style={{color: "green"}}>G</span>
                                      <span style={{color: "blue"}}>B</span>
                                      <span style={{color: "silver"}}>A</span> 
                                      &nbsp;Color Picker</strong></h2>
+        </div>
+        </div>
         </div>
         <div>
           <ColorDisplay />
